@@ -7,5 +7,21 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "my-app-one": {
+      "tags": []
+    },
+    "my-app-one-e2e": {
+      "tags": []
+    },
+    "my-lib-one": {
+      "tags": []
+    },
+    "my-lib-one-with-workspace-schematic": {
+      "tags": []
+    },
+    "my-lib-two-with-workspace-schematic": {
+      "tags": []
+    }
+  }
 }

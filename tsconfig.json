@@ -16,6 +16,15 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@myworkspacename/my-lib-one": [
+        "libs/my-lib-one/src/index.ts"
+      ],
+      "@myworkspacename/my-lib-one-with-workspace-schematic": [
+        "libs/my-lib-one-with-workspace-schematic/src/index.ts"
+      ],
+      "@myworkspacename/my-lib-two-with-workspace-schematic": [
+        "libs/my-lib-two-with-workspace-schematic/src/index.ts"
+      ]
     }
   },
   "exclude": [

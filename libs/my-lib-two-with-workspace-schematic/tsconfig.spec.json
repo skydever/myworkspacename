@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/libs/my-lib-two-with-workspace-schematic",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "files": [
+    "test-setup.ts"
+  ],
+  "include": [
+    "**/*.spec.ts",
+    "**/*.d.ts"
+  ]
+}
