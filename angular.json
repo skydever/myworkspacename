@@ -26,9 +26,7 @@
               "apps/my-app-one/src/favicon.ico",
               "apps/my-app-one/src/assets"
             ],
-            "styles": [
-              "apps/my-app-one/src/styles.scss"
-            ],
+            "styles": ["apps/my-app-one/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -75,9 +73,7 @@
             "polyfills": "apps/my-app-one/src/polyfills.ts",
             "tsConfig": "apps/my-app-one/tsconfig.spec.json",
             "karmaConfig": "apps/my-app-one/karma.conf.js",
-            "styles": [
-              "apps/my-app-one/src/styles.scss"
-            ],
+            "styles": ["apps/my-app-one/src/styles.scss"],
             "scripts": [],
             "assets": [
               "apps/my-app-one/src/favicon.ico",
@@ -92,9 +88,7 @@
               "apps/my-app-one/tsconfig.app.json",
               "apps/my-app-one/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -119,9 +113,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "apps/my-app-one-e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -147,9 +139,7 @@
               "libs/my-lib-one/tsconfig.lib.json",
               "libs/my-lib-one/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -164,8 +154,10 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "libs/my-lib-one-with-workspace-schematic/src/test.ts",
-            "tsConfig": "libs/my-lib-one-with-workspace-schematic/tsconfig.spec.json",
-            "karmaConfig": "libs/my-lib-one-with-workspace-schematic/karma.conf.js"
+            "tsConfig":
+              "libs/my-lib-one-with-workspace-schematic/tsconfig.spec.json",
+            "karmaConfig":
+              "libs/my-lib-one-with-workspace-schematic/karma.conf.js"
           }
         },
         "lint": {
@@ -175,9 +167,7 @@
               "libs/my-lib-one-with-workspace-schematic/tsconfig.lib.json",
               "libs/my-lib-one-with-workspace-schematic/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -192,8 +182,10 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "libs/my-lib-two-with-workspace-schematic/src/test.ts",
-            "tsConfig": "libs/my-lib-two-with-workspace-schematic/tsconfig.spec.json",
-            "karmaConfig": "libs/my-lib-two-with-workspace-schematic/karma.conf.js"
+            "tsConfig":
+              "libs/my-lib-two-with-workspace-schematic/tsconfig.spec.json",
+            "karmaConfig":
+              "libs/my-lib-two-with-workspace-schematic/karma.conf.js"
           }
         },
         "lint": {
@@ -203,9 +195,7 @@
               "libs/my-lib-two-with-workspace-schematic/tsconfig.lib.json",
               "libs/my-lib-two-with-workspace-schematic/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -216,7 +206,7 @@
       "typescriptMismatch": false,
       "versionMismatch": false
     },
-    "defaultCollection": "@nrwl/schematics"
+    "defaultCollection": "./tools/schematics/collections.json"
   },
   "defaultProject": "my-app-one"
 }

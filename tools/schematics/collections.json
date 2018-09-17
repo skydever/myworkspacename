@@ -1,0 +1,13 @@
+{
+  "name": "my",
+  "version": "0.1",
+  "extends": "@nrwl/schematics",
+  "schematics": {
+    "library": {
+      "factory": "./my-lib",
+      "schema": "./my-lib/schema.json",
+      "aliases": ["my-lib"],
+      "description": "Create a library using my defaults"
+    }
+  }
+}
