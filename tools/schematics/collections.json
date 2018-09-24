@@ -6,7 +6,7 @@
     "library": {
       "factory": "./my-lib",
       "schema": "./my-lib/schema.json",
-      "aliases": ["my-lib"],
+      "aliases": ["lib"],
       "description": "Create a library using my defaults"
     }
   }
